@@ -5,6 +5,16 @@
   Esempio:
     Input: a = 1, b = 2, c = 3, d = 4, e = 5
     Output: somma = 15, media = 3
-  
+
   http://www.imparareaprogrammare.it
 */
+
+function somma (a,b,c,d,e) {
+  return a+b+c+d+e
+}
+console.log(somma (1, 2, 3, 4, 5));
+
+function  media (a,b,c,d,e) {
+  return (a+b+c+d+e)/5
+}
+console.log(media (1, 2, 3, 4, 5));

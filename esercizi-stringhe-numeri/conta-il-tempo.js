@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var secondi = 12560
+var num1 = 3600
+
+function ore (h) {
+  return h / num1
+}
+
+console.log(ore (secondi));

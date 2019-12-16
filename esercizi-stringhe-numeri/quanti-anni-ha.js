@@ -11,3 +11,18 @@
 
   http://www.imparareaprogrammare.it
 */
+
+txt1 = 'L_età è di '
+txt2 = 'anni mancanti = '
+
+function eta (a, b) {
+  return a - b
+}
+console.log(txt1);
+console.log(eta(2018, 1991));
+
+function mancanti (a, b) {
+  return a - b
+}
+console.log(txt2);
+console.log(mancanti (100, 27));

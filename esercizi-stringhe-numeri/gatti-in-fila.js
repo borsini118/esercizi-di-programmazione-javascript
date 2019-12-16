@@ -18,4 +18,11 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 44
+var gatti = 44
+var n_gatti_fila = 6
+var num_file = Math.ceil(gatti/n_gatti_fila)
+gatti_mancanti = (num_file*n_gatti_fila)-gatti
+tx1='Numero file '
+tx2='Gatti mancanti '
+console.log(tx1 + num_file);
+console.log(tx2 + gatti_mancanti);
